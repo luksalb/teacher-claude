@@ -1,0 +1,18 @@
+body {
+    padding: 0px;
+    text-align: center;
+    
+}
+.contador{
+    padding: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#dddada;
+}
+
+.colorChanger{
+    padding: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#dddada;
+}
