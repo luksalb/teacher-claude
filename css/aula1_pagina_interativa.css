@@ -1,18 +1,43 @@
 body {
-    padding: 0px;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 74.07vh;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
     
 }
-.contador{
-    padding: 40px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:#dddada;
+.card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.colorChanger{
-    padding: 40px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:#dddada;
+.botao{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover{
+    background-color: #0056b3;
+}
+
+#contador{
+    font-size: 2.5vh;
+    font-weight:bold;
+    color: #333;
+}
+
+#caixaColorida{
+    width: 10.5vh;
+    height: 10.5vh;
+    background-color: #007bff;
+    margin: 20px 0;
+    transition: background-color 0.3s;
 }
