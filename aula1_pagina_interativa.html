@@ -9,14 +9,18 @@
 <body>
     <h1>Seja bem-vindo a minha página interativa</h1>
 
-    <div class="contador">
+    <div class="card">
         <h2>Exemplo de um Contador</h2>
         <p>Isso demonstra um evento básico em JavaScript</p>
+        <p id="contador">0</p>
+        <button class="botao" onclick="comecaContagem()">Contar</button>
+        <button class="botao" onclick="resetaContagem()">Resetar</button>
     </div>
     
-    <div class="colorChanger">
+    <div class="card">
         <h2>Troque as cores</h2>
         <p>Clique na caixa pra mudar sua cor</p>
+        <div id="caixaColorida" onclick="mudaCor()"></div>
     </div>
     
 </body>
